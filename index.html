@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualine | The future is our vision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <div class="logo-placeholder">VS</div>
+                <h1>Visualine</h1>
+            </div>
+            <nav id="main-nav"></nav>
+            <div class="burger" id="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <section class="landing" id="landing"></section>
+    <section class="services" id="services"></section>
+    <div id="service-details-window" class="project-details-window" style="display:none;">
+        <div class="project-details-content">
+            <span class="close" onclick="closeServiceWindow()">&times;</span>
+            <div id="service-details-content"></div>
+        </div>
+    </div>
+    <section class="projects" id="projects"></section>
+    <div id="project-details-window" class="project-details-window" style="display:none;">
+        <div class="project-details-content">
+            <span class="close" onclick="closeProjectWindow()">&times;</span>
+            <div id="project-details-content"></div>
+        </div>
+    </div>
+    <section class="team" id="team"></section>
+    <footer>
+        &copy; 2025 Visualine e-tasks Team. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
